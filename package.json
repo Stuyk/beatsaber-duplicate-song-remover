@@ -1,0 +1,22 @@
+{
+  "name": "duplicate-song-remover",
+  "version": "1.0.0",
+  "description": "Remove duplicate beat saber songs.",
+  "main": "index.js",
+  "scripts": {
+    "build": "pkg . --targets node13-win-x64",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "del": "^6.0.0",
+    "rimraf": "^3.0.2"
+  },
+  "bin": {
+    "execute": "index.js"
+  },
+  "devDependencies": {
+    "pkg": "^4.4.9"
+  }
+}
